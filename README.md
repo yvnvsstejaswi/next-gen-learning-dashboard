@@ -20,11 +20,11 @@ https://github.com/yvnvsstejaswi/next-gen-learning-dashboard
 
 ### Desktop View
 
-![Desktop Dashboard](./screenshots/dashboard-desktop.png)
+![Desktop Dashboard](./screenshots/Dashboard-Desktop.jpeg)
 
 ### Mobile View
 
-![Mobile Dashboard](./screenshots/dashboard-mobile.png)
+![Mobile Dashboard](./screenshots/Dashboard-Mobile.png)
 
 ---
 

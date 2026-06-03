@@ -1,48 +1,175 @@
 # Next-Gen Learning Dashboard
 
-A modern student dashboard built using Next.js, Supabase, Tailwind CSS, Framer Motion, and Lucide React.
+A modern learning dashboard built using Next.js, Supabase, Tailwind CSS, Framer Motion, and Lucide React. The application provides an interactive learning experience with dynamic course tracking, animated UI components, and a responsive design optimized for desktop and mobile devices.
+
+---
+
+## Live Demo
+
+https://next-gen-learning-dashboard-clwx008za.vercel.app
+
+---
+
+## GitHub Repository
+
+https://github.com/yvnvsstejaswi/next-gen-learning-dashboard
+
+---
+
+## Screenshots
+
+### Desktop View
+
+![Desktop Dashboard](./screenshots/dashboard-desktop.png)
+
+### Mobile View
+
+![Mobile Dashboard](./screenshots/dashboard-mobile.png)
+
+---
 
 ## Features
 
-* Dynamic course cards fetched from Supabase
-* Animated progress bars
-* Bento-style dashboard layout
-* Dark mode user interface
-* Responsive design
-* Loading skeletons
-* Error handling
-* Lucide React icons
-* Framer Motion animations
+- Dynamic course data fetched from Supabase
+- Animated progress bars using Framer Motion
+- Responsive Bento-style dashboard layout
+- Modern dark-themed user interface
+- Dynamic Lucide React icons
+- Weekly activity visualization
+- Loading skeletons for improved user experience
+- Error handling with a custom error page
+- TypeScript support for type safety
+- Mobile-responsive design
+
+---
 
 ## Tech Stack
 
-* Next.js (App Router)
-* TypeScript
-* Supabase
-* Tailwind CSS
-* Framer Motion
-* Lucide React
+### Frontend
 
-## Environment Variables
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React
 
-Create a `.env.local` file:
+### Backend & Database
 
-NEXT_PUBLIC_SUPABASE_URL=
+- Supabase
 
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
+### Deployment
+
+- Vercel
+
+---
 
 ## Architecture
 
-* Server Components fetch course data from Supabase.
-* Client Components handle animations using Framer Motion.
-* Tailwind CSS is used for styling and responsive layouts.
+- Server Components fetch course data directly from Supabase.
+- Client Components manage animations and interactive UI elements.
+- Tailwind CSS handles styling and responsive layouts.
+- Framer Motion powers smooth transitions and animations.
+- Supabase stores and serves course information dynamically.
 
-## Setup
+---
 
+## Database Schema
+
+### Courses Table
+
+| Column | Type |
+|----------|----------|
+| id | UUID |
+| title | Text |
+| progress | Integer |
+| icon_name | Text |
+| created_at | Timestamp |
+
+---
+
+## Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+```
+
+---
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yvnvsstejaswi/next-gen-learning-dashboard.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd next-gen-learning-dashboard
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
 
+Run the development server:
+
+```bash
 npm run dev
+```
 
-## Deployment
+Open:
 
-The project can be deployed on Vercel by adding the required Supabase environment variables.
+```text
+http://localhost:3000
+```
+
+---
+
+## Responsive Design
+
+The dashboard is optimized for:
+
+- Desktop devices
+- Tablet devices
+- Mobile devices
+
+---
+
+## Assignment Requirements Covered
+
+- Next.js App Router
+- Supabase Integration
+- Tailwind CSS Styling
+- Framer Motion Animations
+- Lucide React Icons
+- Dynamic Data Fetching
+- Responsive Dashboard Layout
+- Loading State
+- Error Handling
+- TypeScript Interfaces
+- Vercel Deployment
+
+---
+
+## Author
+
+Yarasuri V N V Sai Sri Tejaswi
+
+MCA Student | Frontend Developer | AI and Data Enthusiast
+
+GitHub: https://github.com/yvnvsstejaswi
+
+LinkedIn: Add your LinkedIn profile link here
+
+https://www.linkedin.com/in/yarasuri-v-n-v-sai-sri-tejaswi
+
+## License
+
+This project was developed as part of a Frontend Intern Technical Challenge.

@@ -8,6 +8,8 @@ import {
   Sparkles,
 } from "lucide-react";
 
+import { Course } from "@/types/course";
+
 const icons: any = {
   Code,
   Rocket,
@@ -15,7 +17,7 @@ const icons: any = {
   Sparkles,
 };
 
-export default function CourseCard({ course, index }: any) {
+export default function CourseCard({course, index,}: {course: Course; index: number;}) {
   const Icon = icons[course.icon_name];
 
   return (
